@@ -47,15 +47,6 @@ Write the detailed procedure here
 Name : Jude Clement Jose G
 Regiter Number : 212224230109
 ~~~
-```
-module exp_4(din,a,b,c);
-input [0:7] din;
-output a,b,c;
-assign a=(din[4]|din[5]|din[6]|din[7]);
-assign b=(din[2]|din[3]|din[6]|din[7]);
-assign c=(din[1]|din[3]|din[5]|din[7]);
-endmodule
-```
 ~~~
 module exp_4b(df, bo, a, b, bin);
     output df;
@@ -73,11 +64,9 @@ module exp_4b(df, bo, a, b, bin);
 endmodule
 ~~~
 **RTL Schematic**
-![exp_4](https://github.com/user-attachments/assets/dcbed788-3eaa-4a1d-b55c-8eb69ccfbcf7)
 ![exp_4b](https://github.com/user-attachments/assets/71e724c5-db28-4adc-8543-a0b4e1ae7681)
 
 **Output Timing Waveform**
-![Screenshot 2025-04-21 034830](https://github.com/user-attachments/assets/7aa1d69e-d500-4cfb-bc58-ce3a67717f54)
 ![Screenshot 2025-04-21 035240](https://github.com/user-attachments/assets/2403150c-4f15-4401-8114-ade8e6a23d1d)
 
 **Result:**
