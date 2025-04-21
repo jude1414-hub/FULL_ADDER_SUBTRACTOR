@@ -73,8 +73,12 @@ module exp_4b(df, bo, a, b, bin);
 endmodule
 ~~~
 **RTL Schematic**
+![exp_4](https://github.com/user-attachments/assets/dcbed788-3eaa-4a1d-b55c-8eb69ccfbcf7)
+![exp_4b](https://github.com/user-attachments/assets/71e724c5-db28-4adc-8543-a0b4e1ae7681)
 
 **Output Timing Waveform**
+![Screenshot 2025-04-21 034830](https://github.com/user-attachments/assets/7aa1d69e-d500-4cfb-bc58-ce3a67717f54)
+![Screenshot 2025-04-21 035240](https://github.com/user-attachments/assets/2403150c-4f15-4401-8114-ade8e6a23d1d)
 
 **Result:**
 
