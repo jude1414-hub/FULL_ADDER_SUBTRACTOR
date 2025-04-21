@@ -48,6 +48,22 @@ Name : Jude Clement Jose G
 Regiter Number : 212224230109
 ~~~
 ~~~
+module exp_4a(sum, cout, a, b, cin);
+    output sum;
+    output cout;
+    input a;
+    input b;
+    input cin;
+
+	 wire w1,w2,w3;
+	 assign w1=a^b;
+	 assign w2=a&b;
+	 assign w3=w1&cin;
+	 assign sum=w1^cin;
+	 assign cout=w2|w3;
+endmodule
+~~~
+~~~
 module exp_4b(df, bo, a, b, bin);
     output df;
     output bo;
@@ -64,9 +80,12 @@ module exp_4b(df, bo, a, b, bin);
 endmodule
 ~~~
 **RTL Schematic**
+![exp_4a](https://github.com/user-attachments/assets/b76d4a99-de01-4e1a-96c6-731fc8d7044e)
+
 ![exp_4b](https://github.com/user-attachments/assets/71e724c5-db28-4adc-8543-a0b4e1ae7681)
 
 **Output Timing Waveform**
+![Screenshot 2025-04-21 070101](https://github.com/user-attachments/assets/5a176ff5-ca28-45d4-aa1e-0f7edd828421)
 ![Screenshot 2025-04-21 035240](https://github.com/user-attachments/assets/2403150c-4f15-4401-8114-ade8e6a23d1d)
 
 **Result:**
